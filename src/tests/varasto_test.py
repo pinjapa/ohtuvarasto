@@ -72,4 +72,4 @@ class TestVarasto(unittest.TestCase):
 
 
     def test_tulostus_oikeassa_muodossa(self):
-        self.assertEqual(str(self.varasto), f"saldo = {self.varasto.saldo}, vielä tilaa {self.varasto.paljonko_mahtuu()}")
+        self.assertEqual(str(self.varasto), f"saldo on {self.varasto.saldo}, vielä tilaa {self.varasto.paljonko_mahtuu()}")
