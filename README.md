@@ -1,3 +1,3 @@
 # ohtuvarasto
 
-![GHA workflow bagde](https://github.com/pinjapa/ohtuvarasto/actions/workflows/WORKFLOW-FILE/badge.svg)
+[![CI](https://github.com/pinjapa/ohtuvarasto/actions/workflows/main.yml/badge.svg)](https://github.com/pinjapa/ohtuvarasto/actions/workflows/main.yml)
