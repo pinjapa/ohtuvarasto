@@ -66,7 +66,9 @@ class TestVarasto(unittest.TestCase):
     def test_yli_saldon_ottaminen_toimii_oikein(self):
         self.varasto.lisaa_varastoon(5)
         
+        # otetaan varaston koko saldo
         self.assertEqual(self.varasto.ota_varastosta(6), 5)
+        #saldo nollaantuu oikein
         self.assertEqual(self.varasto.saldo, 0)
 
 
